@@ -1,0 +1,44 @@
+https://github.com/herbert0419/Insurance-Premium-Prediction.git
+ec2-35-154-247-246.ap-south-1.compute.amazonaws.com:8080
+
+1. Airflow (admin login)
+2. Need to create flask app or airflow api is fine
+3. Small doubt related to documentation
+4. Project Name : Individual or Group Name
+5. Wireframe to be made or not
+
+curl -k --proxy http://hostname:port -m 5 -s -o /dev/null -w "%{http_code}" https://ssm.RegionID.amazonaws.com
+
+from lazypredict.Supervised import LazyRegressor
+
+A machine learning project typically goes through the following stages:
+1.	Problem definition: The first step is to define the problem that you want to solve using machine learning. This involves understanding the business context, determining the goals and objectives of the project, and identifying the data that you will need to train the model.
+2.	Data collection and preparation: The next step is to collect and prepare the data that you will use to train the model. This may involve scraping data from the web, collecting data from APIs, or using a pre-existing dataset. You will also need to clean and preprocess the data to get it into a suitable format for training.
+3.	Exploratory data analysis: Once you have collected and prepared the data, you will need to explore it to get a better understanding of its characteristics and any patterns that may exist. This will help you to identify any issues with the data and inform the development of the machine learning model.
+4.	Model selection and training: The next step is to select an appropriate machine learning model and train it on the data. This will involve selecting a model type, choosing the hyperparameters for the model, and training the model on the data using an optimization algorithm.
+5.	Model evaluation: Once the model has been trained, you will need to evaluate its performance to see how well it is able to make predictions. This will involve using a variety of evaluation metrics, such as accuracy, precision, and recall, to assess the model's performance.
+6.	Model deployment: If the model performs well and meets the project goals, it can be deployed to a production environment where it can be used to make predictions in real-time. This may involve integrating the model into a web or mobile application, or using it to automate a business process.
+7.	Model maintenance: Even after a model has been deployed, it will still need to be maintained and updated over time. This may involve retraining the model on new data, fine-tuning the hyperparameters, or implementing additional features to improve its performance.
+
+
+data preprocessing refers to the process of preparing data for use in training a machine learning model. This typically involves a number of steps, including:
+
+Collecting data from various sources: This may include scraping data from websites, accessing databases, or collecting data from sensors or other devices.
+
+Cleaning the data: This involves removing any invalid or missing data, correcting errors, and ensuring that the data is in a consistent format.
+
+Normalizing or scaling the data: This involves transforming the data so that it is on the same scale, which can help improve the performance of some machine learning algorithms.
+
+Splitting the data into training and test sets: This involves dividing the data into two sets, one for training the model and the other for evaluating its performance.
+
+Extracting features: This involves selecting the relevant data and transforming it into a form that can be used by a machine learning algorithm.
+
+Encoding categorical data: If the data includes categorical variables, they need to be encoded as numerical values in order to be used by most machine learning algorithms.
+
+Data preprocessing is an important step in the machine learning process, as it helps ensure that the data is in a suitable form for training a model and can help improve the model's performance.
+
+
+http://ec2-3-111-150-202.ap-south-1.compute.amazonaws.com:8080
+Regenerate response
+
+mongodb connects to localhost:27017
