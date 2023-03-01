@@ -4,7 +4,7 @@ import json
 from insurance.config import mongo_client
 
 # Provide the mongodb localhost url to connect python to mongodb.
-# client = pymongo.MongoClient("mongodb+srv://devshobhan4:Shaan_1904@cluster0.y1ffe.mongodb.net/?retryWrites=true&w=majority")
+# client = pymongo.MongoClient("mongodb+srv://dharavath_ramdas:password@cluster0.y1ffe.mongodb.net/?retryWrites=true&w=majority")
 #mongodb://localhost:27017/neurolabDB
 
 DATABASE_NAME = "insurance"
